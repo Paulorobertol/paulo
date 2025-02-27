@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppIMC.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                <label text="qual seu peso?"/>
+                <entry x:Name="txt_peso" placeholder="em kg" />
+          
+
+            <Label
+              <labal text="qual sua altura?" />
+                <entry x:; name="txt_altura" placeholder ="em metros" />
+             <Button text="calcular IMC"/> .            
+               
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
