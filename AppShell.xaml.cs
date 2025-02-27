@@ -1,4 +1,4 @@
-﻿namespace MauiAppIMC
+﻿namespace MauiAppMeuCombustivel
 {
     public partial class AppShell : Shell
     {

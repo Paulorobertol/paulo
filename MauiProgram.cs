@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MauiAppIMC
+namespace MauiAppMeuCombustivel
 {
     public static class MauiProgram
     {

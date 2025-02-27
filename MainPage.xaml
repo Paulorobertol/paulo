@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppIMC.MainPage">
+             x:Class="MauiAppMeuCombustivel.MainPage">
 
     <ScrollView>
         <VerticalStackLayout
@@ -13,16 +13,14 @@
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
-            <Label
-                <label text="qual seu peso?"/>
-                <entry x:Name="txt_peso" placeholder="em kg" />
-          
+            <Label Text="Preço do Etanol:" />
+            <Entry x:Name="txt_etanol" Placeholder="R$ " />
 
-            <Label
-              <labal text="qual sua altura?" />
-                <entry x:; name="txt_altura" placeholder ="em metros" />
-             <Button text="calcular IMC"/> .            
-               
+            <Label Text="Preço da Gasolina:" />
+            <Entry x:Name="txt_gasolina" Placeholder="R$ " />
+
+            <Button Text="Qual compensa mais?" Clicked="Button_Clicked" />
+
         </VerticalStackLayout>
     </ScrollView>
 
